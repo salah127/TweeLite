@@ -7,6 +7,7 @@ const TweetSchema = new Schema({
     required: true,
     maxlength: 280
   },
+
   mediaUrl: {
     type: String
   },
